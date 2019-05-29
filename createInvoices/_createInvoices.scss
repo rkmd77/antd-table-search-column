@@ -1,0 +1,56 @@
+$default-color: #1890ff;
+$primary-color: rgb(2, 170, 206);
+
+.createInvoicesCard {
+  .ant-alert{
+    min-height: 39px;
+    width: 50%;
+    float: left;
+  }
+  .ant-btn-default{
+    margin: 3px 10px;
+  }
+  .ant-card-head-title {
+    .ant-btn-primary, .ant-btn-default{
+      float: right;
+      margin: 3px 0;
+    }
+  }
+  .ant-calendar-picker{
+    min-width: 130px!important;
+  }
+  td.column-money {
+    text-align: right;
+  }
+  .ant-btn.paidButton{
+    color: $primary-color;
+    background-color: #fff;
+    border-color: $primary-color;
+    &:hover{
+      color: #fff;
+      background-color: $primary-color;
+      border-color: #fff;
+    }
+  }
+  .anticon-download {
+    color: $default-color;
+    &:hover{
+      color: $primary-color;
+    }
+  }
+}
+
+.createInvoicesModal{
+  .periodending{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+  }
+  .ant-modal-footer{
+    border: none;
+  }
+}
